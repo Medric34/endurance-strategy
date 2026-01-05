@@ -10,7 +10,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: endurance-db
-          property: connectionStringInternal
+          property: connectionString   # <--- au lieu de connectionStringInternal
       - key: WEBADOR_ORIGIN
         value: "https://ton-site.webador.com"
 
@@ -23,7 +23,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: endurance-db
-          property: connectionStringInternal
+          property: connectionString   # <---
       - key: SCREEN_UUID
         value: "e1658cae-5b86-4a7f-93d3-0eaa57ed0752"
 
@@ -37,7 +37,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: endurance-db
-          property: connectionStringInternal
+          property: connectionString   # <---
 
 databases:
   - name: endurance-db
