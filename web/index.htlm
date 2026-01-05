@@ -1,1 +1,25 @@
 
+<!-- web/index.html -->
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title>Stratégie Endurance – ITS Live POC</title>
+  ./style.css
+</head>
+<body>
+  <main>
+    <h1>Chronos live (secteurs + tour)</h1>
+    <div id="meta"></div>
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th>#</th><th>Pos</th><th>Lap</th><th>S1</th><th>S2</th><th>S3</th><th>Best</th><th>Ideal</th><th>Team</th><th>Cat</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+  <script src="./app</body>
+</html>
+
