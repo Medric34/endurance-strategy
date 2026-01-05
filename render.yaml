@@ -37,7 +37,12 @@ services:
           name: endurance-db
           property: connectionStringInternal
 
-databases:
-  - name: endurance-db
-    plan: free
+    envVars:
+      - key: SCREEN_UUID
+        value: "e1658cae-5b86-4a7f-93d3-0eaa57ed0752"
+
+
+    databases:
+      - name: endurance-db
+        plan: free
 
